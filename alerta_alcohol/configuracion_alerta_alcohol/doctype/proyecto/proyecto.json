@@ -1,0 +1,68 @@
+{
+ "allow_import": 1,
+ "autoname": "PRE.####",
+ "creation": "2020-02-03 12:56:38.912367",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Nombre del proyecto",
+   "reqd": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Descripci\u00f3n"
+  }
+ ],
+ "modified": "2020-02-03 13:10:07.743696",
+ "modified_by": "Administrator",
+ "module": "Configuracion Alerta Alcohol",
+ "name": "Proyecto",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "import": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "import": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrator",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "print": 1,
+   "read": 1,
+   "role": "All"
+  }
+ ],
+ "restrict_to_domain": "Proyecto Alerta Alcohol",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

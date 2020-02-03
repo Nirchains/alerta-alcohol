@@ -1,0 +1,63 @@
+{
+ "autoname": "CAR.####",
+ "creation": "2020-02-03 13:26:57.538682",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "card_name",
+  "points",
+  "image"
+ ],
+ "fields": [
+  {
+   "fieldname": "card_name",
+   "fieldtype": "Data",
+   "label": "Nombre"
+  },
+  {
+   "fieldname": "points",
+   "fieldtype": "Int",
+   "label": "Puntos"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "label": "Imagen"
+  }
+ ],
+ "image_field": "image",
+ "modified": "2020-02-03 13:26:57.538682",
+ "modified_by": "Administrator",
+ "module": "Configuracion Alerta Alcohol",
+ "name": "Carta",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrator",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
