@@ -27,7 +27,7 @@
   }
  ],
  "image_field": "image",
- "modified": "2020-02-03 13:26:57.538682",
+ "modified": "2020-02-03 17:00:33.865951",
  "modified_by": "Administrator",
  "module": "Configuracion Alerta Alcohol",
  "name": "Carta",
@@ -56,8 +56,19 @@
    "role": "Administrator",
    "share": 1,
    "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "All",
+   "share": 1
   }
  ],
+ "restrict_to_domain": "Proyecto Alerta Alcohol",
  "sort_field": "modified",
- "sort_order": "DESC"
+ "sort_order": "DESC",
+ "track_changes": 1
 }

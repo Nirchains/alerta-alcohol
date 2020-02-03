@@ -7,15 +7,15 @@ def get_data():
 		{
 			"module_name": "Alerta Alcohol",
 			"color": "#B83A3C",
-			"icon": "octicon octicon-report",
+			"icon": "octicon octicon-circuit-board",
 			"type": "module",
-			"label": _("Alerta Alcohol")
+			"label": _("Alerta Alcohol"),
 		},
 		{
 			"module_name": "Configuracion Alerta Alcohol",
 			"color": "#B83A3C",
 			"icon": "octicon octicon-gear",
 			"type": "module",
-			"label": _("Configuracion Alerta Alcohol")
+			"label": _("Configuracion Alerta Alcohol"),
 		}
 	]
