@@ -31,7 +31,7 @@
    "options": "Carta"
   }
  ],
- "modified": "2020-02-03 17:00:45.134675",
+ "modified": "2020-02-03 18:18:08.973641",
  "modified_by": "Administrator",
  "module": "Alerta Alcohol",
  "name": "Incentivos",
@@ -74,7 +74,7 @@
    "write": 1
   }
  ],
- "restrict_to_domain": "Proyecto Alerta Alcohol",
+ "restrict_to_domain": "",
  "sort_field": "modified",
  "sort_order": "DESC"
 }

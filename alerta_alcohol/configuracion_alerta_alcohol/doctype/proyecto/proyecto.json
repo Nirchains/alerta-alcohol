@@ -20,10 +20,10 @@
   {
    "fieldname": "description",
    "fieldtype": "Small Text",
-   "label": "Descripci\u00f3n"
+   "label": "Descripci\u00f3n del proyecto"
   }
  ],
- "modified": "2020-02-03 17:05:51.629668",
+ "modified": "2020-02-03 18:17:17.254313",
  "modified_by": "Administrator",
  "module": "Configuracion Alerta Alcohol",
  "name": "Proyecto",
@@ -61,7 +61,7 @@
    "role": "All"
   }
  ],
- "restrict_to_domain": "Proyecto Alerta Alcohol",
+ "restrict_to_domain": "",
  "sort_field": "modified",
  "sort_order": "DESC",
  "track_changes": 1
