@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include alerta_alcohol *.css
+recursive-include alerta_alcohol *.csv
+recursive-include alerta_alcohol *.html
+recursive-include alerta_alcohol *.ico
+recursive-include alerta_alcohol *.js
+recursive-include alerta_alcohol *.json
+recursive-include alerta_alcohol *.md
+recursive-include alerta_alcohol *.png
+recursive-include alerta_alcohol *.py
+recursive-include alerta_alcohol *.svg
+recursive-include alerta_alcohol *.txt
+recursive-exclude alerta_alcohol *.pyc
