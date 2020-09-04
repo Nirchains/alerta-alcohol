@@ -13,7 +13,9 @@
   {
    "fieldname": "project_name",
    "fieldtype": "Data",
+   "in_global_search": 1,
    "in_list_view": 1,
+   "in_preview": 1,
    "in_standard_filter": 1,
    "label": "Nombre del proyecto",
    "reqd": 1
@@ -28,7 +30,7 @@
    "label": "Descripci\u00f3n del proyecto"
   }
  ],
- "modified": "2020-09-04 07:51:46.849351",
+ "modified": "2020-09-04 12:46:00.782849",
  "modified_by": "Administrator",
  "module": "Configuracion Alerta Alcohol",
  "name": "Proyecto",
@@ -61,6 +63,7 @@
    "write": 1
   }
  ],
+ "search_fields": "project_name",
  "sort_field": "modified",
  "sort_order": "DESC",
  "track_changes": 1

@@ -23,7 +23,6 @@
   {
    "fieldname": "project",
    "fieldtype": "Link",
-   "in_global_search": 1,
    "in_list_view": 1,
    "in_preview": 1,
    "in_standard_filter": 1,
@@ -35,7 +34,6 @@
   {
    "fieldname": "card",
    "fieldtype": "Link",
-   "in_global_search": 1,
    "in_list_view": 1,
    "in_preview": 1,
    "in_standard_filter": 1,
@@ -44,7 +42,7 @@
    "search_index": 1
   }
  ],
- "modified": "2020-09-04 07:16:35.112818",
+ "modified": "2020-09-04 13:08:45.218905",
  "modified_by": "Administrator",
  "module": "Alerta Alcohol",
  "name": "Incentivos",
@@ -76,15 +74,8 @@
   },
   {
    "create": 1,
-   "delete": 1,
-   "email": 1,
-   "export": 1,
-   "print": 1,
    "read": 1,
-   "report": 1,
-   "role": "All",
-   "share": 1,
-   "write": 1
+   "role": "Tailorviewer"
   }
  ],
  "sort_field": "modified",
