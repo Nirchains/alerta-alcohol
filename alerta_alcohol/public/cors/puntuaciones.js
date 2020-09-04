@@ -1,15 +1,17 @@
-//var host = "http://pre.alertaalcohol.com";
-//var apiKey = "215e8d8fd8ea1e8";
-//var apiSecret = "63b17f0ebe96d5d";
+var host = "https://www.alcoholalerta.es/";
+var apiKey = "215e8d8fd8ea1e8";
+var apiSecret = "fc5b83c4cb1c752";
+
+const token = "token " + apiKey + ":" + apiSecret
+const headers = new Headers();
+headers.append('Authorization', token);
+headers.append('cache-control', 'no-cache');
+headers.append('Accept', 'application/json');
+headers.append('Content-Type', 'application/json');
 
 
-function getCard(username, project, card, host, apiKey, apiSecret) {
-	const token = "token " + apiKey + ":" + apiSecret
-	const headers = new Headers();
-	headers.append('Authorization', token);
-	headers.append('cache-control', 'no-cache');
-	headers.append('Accept', 'application/json');
-	headers.append('Content-Type', 'application/json');
+function getCard(username, project, card) {
+	
 	//var url0 = host + "/api/resource/Incentivos?fields=[%22username%22,%20%22project%22,%20%22card%22]";
 	var url = host + "/api/resource/Carta/" + card;
 			

@@ -1,6 +1,6 @@
 {
  "allow_import": 1,
- "autoname": "PRE.####",
+ "autoname": "PRO.####",
  "creation": "2020-02-03 12:56:38.912367",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -14,16 +14,21 @@
    "fieldname": "project_name",
    "fieldtype": "Data",
    "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Nombre del proyecto",
    "reqd": 1
   },
   {
    "fieldname": "description",
    "fieldtype": "Small Text",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Descripci\u00f3n del proyecto"
   }
  ],
- "modified": "2020-02-03 18:17:17.254313",
+ "modified": "2020-09-04 07:51:46.849351",
  "modified_by": "Administrator",
  "module": "Configuracion Alerta Alcohol",
  "name": "Proyecto",
@@ -54,14 +59,8 @@
    "role": "Administrator",
    "share": 1,
    "write": 1
-  },
-  {
-   "print": 1,
-   "read": 1,
-   "role": "All"
   }
  ],
- "restrict_to_domain": "",
  "sort_field": "modified",
  "sort_order": "DESC",
  "track_changes": 1
