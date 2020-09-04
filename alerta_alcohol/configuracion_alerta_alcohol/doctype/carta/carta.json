@@ -13,7 +13,10 @@
   {
    "fieldname": "card_name",
    "fieldtype": "Data",
-   "label": "Nombre"
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Nombre",
+   "search_index": 1
   },
   {
    "fieldname": "points",
@@ -31,7 +34,7 @@
   }
  ],
  "image_field": "image",
- "modified": "2020-09-04 07:13:08.040976",
+ "modified": "2020-09-04 18:49:18.944888",
  "modified_by": "Administrator",
  "module": "Configuracion Alerta Alcohol",
  "name": "Carta",
