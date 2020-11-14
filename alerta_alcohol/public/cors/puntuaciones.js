@@ -3,7 +3,7 @@ var apiKey = "e789694259dabb0";
 var apiSecret = "72fa33f74786094";
 
 //PRE
-var pre = true;
+var pre = false;
 if (pre) {
 	host = "http://pre.alertaalcohol.com";
 	apiKey = "e789694259dabb0";
