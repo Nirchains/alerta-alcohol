@@ -1,0 +1,39 @@
+{% extends "templates/web.html" %}
+
+{% block title %}
+	{{ title }}
+{% endblock %}
+
+{% block header %}
+	<h1>{{ title }}</h1>
+{% endblock %}
+
+{% block breadcrumbs %}
+  {% include 'templates/includes/breadcrumbs.html' %}
+{% endblock %}
+
+
+{% block content %}
+<div class="row">
+	<div class=" col-md-3 container-sidebar-left">
+	{% include 'templates/includes/sidebar.html' %}
+	</div>
+
+	<div class="col-md-9">
+	<div class="row pb-4">
+	{% for carta in cartas %}
+	<div class="col-md-4">
+		<a class="" href="{{carta.image}}" target="_blank"><img src="{{carta.image}}" alt="{{carta.card_name}}" class="img-fluid" /></a>
+	</div>
+	{% if loop.index%3 == 0 %}
+		</div>
+		<div class="row pb-4">
+	{% endif %}
+	{% endfor %}
+	</div>
+
+	</div>
+</div>
+{% endblock %}
+
+<!-- this is a sample default web page template -->

@@ -12,6 +12,12 @@ def get_data():
 					"name": "Incentivos",
 					"description": _("Incentivos"),
 					"onboard": 1,
+				},
+				{
+					"type": "doctype",
+					"name": "Puntuaciones",
+					"description": _("Puntuaciones"),
+					"onboard": 1,
 				}
 			]
 		}

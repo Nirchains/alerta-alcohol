@@ -1,0 +1,45 @@
+{% extends "templates/web.html" %}
+
+{% block title %}
+	{{ title }}
+{% endblock %}
+
+{% block header %}
+	<h1>{{ title }}</h1>
+{% endblock %}
+
+{% block breadcrumbs %}
+  {% include 'templates/includes/breadcrumbs.html' %}
+{% endblock %}
+
+
+{% block content %}
+<div class="row">
+	<div class=" col-md-3 container-sidebar-left">
+	{% include 'templates/includes/sidebar.html' %}
+	</div>
+
+	<div class="col-md-9">
+
+
+	<table class="table table-striped">
+	<thead>
+	<tr><th></th>
+		<th>Usuario</th>
+		<th>Puntos</th>
+	</tr>
+	</thead>
+	{% for puntuacion in puntuaciones %}
+		<tr>
+			<td><b>{{loop.index}}º</b></td>
+			<td>{{puntuacion.name}}</td>
+			<td>{{puntuacion.points}}</td>
+		</tr>
+	{% endfor %}
+	</table>
+
+	</div>
+</div>
+{% endblock %}
+
+<!-- this is a sample default web page template -->

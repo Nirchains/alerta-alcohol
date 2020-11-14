@@ -1,0 +1,30 @@
+{
+ "creation": "2020-10-24 08:11:09.748611",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "card_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "card_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Carta",
+   "options": "Carta"
+  }
+ ],
+ "istable": 1,
+ "modified": "2020-11-10 14:37:15.001174",
+ "modified_by": "Administrator",
+ "module": "Alerta Alcohol",
+ "name": "Puntuaciones Cartas",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

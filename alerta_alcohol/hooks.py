@@ -41,6 +41,7 @@ app_license = "MIT"
 # role_home_page = {
 #	"Role": "home_page"
 # }
+website_user_home_page = "/puntuaciones"
 
 # Website user home page (by function)
 # get_website_user_home_page = "alerta_alcohol.utils.get_home_page"
