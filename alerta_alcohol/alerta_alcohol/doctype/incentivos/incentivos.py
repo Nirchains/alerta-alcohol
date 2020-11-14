@@ -13,12 +13,13 @@ class Incentivos(Document):
 			frappe.throw("Ya ha conseguido esta card")
 
 @frappe.whitelist(allow_guest = True)
-def alerta_puntuacion(username, fullname, email, project, card):
+def alerta_puntuacion(username, fullname, email, location, project, card):
 	if not frappe.db.exists('User', email):
 		user = frappe.new_doc('User')
 		user.email = email
 		user.first_name = fullname
 		user.username = username
+		user.location = location #nombre del instituto
 		user.save(ignore_permissions=True)
 		asignar_rol_visor(email)
 	else:
@@ -77,6 +78,7 @@ def actualiza_puntuaciones_en_masivo():
 			puntuaciones.user = usuario.username
 			puntuaciones.save(ignore_permissions=True)
 			actualiza_tabla_cartas(usuario.username, puntuaciones)
+			frappe.db.commit()
 		else:
 			puntuaciones = frappe.get_doc("Puntuaciones", usuario.username)
 			actualiza_tabla_cartas(usuario.username, puntuaciones)
