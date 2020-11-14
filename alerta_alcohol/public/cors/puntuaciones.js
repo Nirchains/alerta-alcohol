@@ -81,7 +81,7 @@ function ping() {
 	
 }
 
-function alerta_puntuacion(username, fullname, email, project, card) {
+function alerta_puntuacion(username, fullname, email, location, project, card) {
 	//obtenemos la carta
 	var url = host + "/api/resource/Carta/" + card;
 			
@@ -107,6 +107,7 @@ function alerta_puntuacion(username, fullname, email, project, card) {
 			username: username,
 			fullname: fullname,
 			email: email,
+			location: location,
 			project: project,
 			card: card
 		}
