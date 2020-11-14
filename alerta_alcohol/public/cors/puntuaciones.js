@@ -82,6 +82,25 @@ function ping() {
 }
 
 function alerta_puntuacion(username, fullname, email, project, card) {
+	//obtenemos la carta
+	var url = host + "/api/resource/Carta/" + card;
+			
+	fetch(url, {
+		headers: {
+			'Authorization': token
+		}
+	})
+	.then(r => r.json())
+	.then(r => {
+		//console.log(r.data.image);
+		var card_element = document.getElementById('card');
+		card_element.outerHTML = "<div id='card'><img src='" + host + "" + r.data.image + "' alt='funciona' /></div>";
+		var card_container = document.getElementById('card-container');
+		//card_element.classList.remove("card-0");
+		card_container.classList.add("card-1");
+	})
+
+	//guardamos las puntuaciones
 	var url = host + "/api/method/alerta_alcohol.alerta_alcohol.doctype.incentivos.incentivos.alerta_puntuacion";
 			
 	const data = {
