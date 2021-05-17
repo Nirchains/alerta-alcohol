@@ -1,6 +1,6 @@
 var host = "https://www.alcoholalerta.es";
 var apiKey = "e789694259dabb0";
-var apiSecret = "72fa33f74786094";
+var apiSecret = "7b457950d0ee1c4";
 
 //PRE
 var pre = false;
